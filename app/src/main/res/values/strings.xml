@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Android Basic</string>
+    <string name="navigation_back_arrow">Navigation Back Arrow</string>
+    <string name="greetng_to">Happy Birthday, Stuart!</string>
+    <string name="greeting_from"> - From Mike!</string>
+    <string name="greeting_image">Greeting Image</string>
+    <string name="greeting_message">Wish you and your family a happy and posporous - Happy New Year !</string>
+    <string name="tab_bithday_greeting_card">Birthday Greeting App</string>
+    <string name="tab_text_new_year_greeting_card">New Year Greeting Card</string>
+    <string name="tab_text_project_rubric">Project : Rubric</string>
+    <string name="business_image">Business Image or Logo</string>
+    <string name="location_icon">Location Icon</string>
+    <string name="location_address">Unit: 234, 2nd Floor, Hamilton Street,  California, USA, 201413</string>
+    <string name="business_name">DroidX Inc.</string>
+    <string name="contact_number">+91-9111691116</string>
+    <string name="contact_icon">Contact Icon</string>
+    <string name="website_icon">Website Icon</string>
+    <string name="company_website">www.codewithmike.in</string>
+    <string name="description_icon">Description Icon</string>
+    <string name="company_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean semper, justo ut porttitor molestie, velit ex malesuada enim, quis maximus ligula tellus nec ante. Quisque vitae interdum augue. Aliquam iaculis orci eget mollis mollis. Ut eu lobortis lacus, ut fermentum justo. Ut fringilla eros lacinia, cursus elit quis, tempor mi. Duis posuere, lectus at malesuada mattis, dolor purus elementum leo, vel facilisis erat nulla vitae tortor. Donec eleifend, nibh sed commodo feugiat, dolor ante scelerisque arcu, vel fringilla augue ex nec lectus. Donec rutrum eros efficitur elit pretium blandit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In efficitur nisl magna, eget lobortis metus blandit sed. \n\nNulla nisi nisi, dignissim sed purus ac, volutpat vehicula justo. Morbi viverra arcu quis nisl varius, non tempor enim lacinia. Aliquam erat volutpat. Proin vitae diam nisl. Suspendisse sit amet libero et nulla convallis molestie. Nulla vel feugiat sem. Morbi sed augue eu nisi congue sagittis vitae maximus elit. Ut ligula purus, commodo eu aliquam at, mollis eget ipsum. Donec efficitur nulla in quam imperdiet, vitae sollicitudin ligula varius.</string>
+    <string name="operational_hours">Mon - Fri, 10:00 - 17:00 Hrs</string>
+    <string name="hour_clock_icon">Operation Hour Clock Icon</string>
+    <string name="android_basic_heading">Android Basic</string>
+    <string name="user_interface_tab">User Interface</string>
+    <string name="user_input_tab">User Input</string>
+    <string name="multiscreen_app_tab">MultiScreen App</string>
+    <string name="networking_tab">Networking</string>
+    <string name="data_storage_tab">Data Storage</string>
+</resources>
