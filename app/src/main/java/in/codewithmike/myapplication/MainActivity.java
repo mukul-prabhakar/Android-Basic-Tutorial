@@ -9,6 +9,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 
+import in.codewithmike.myapplication.UserInput.UserInputMain;
 import in.codewithmike.myapplication.UserInterface.UserInterfaceMain;
 import in.codewithmike.myapplication.utils.Tools;
 
@@ -47,7 +48,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(new Intent(MainActivity.this, UserInterfaceMain.class));
                 break;
             case R.id.tab_UserInput:
-                //startActivity(new Intent(MainActivity.this, UserInterfaceMain.class));
+                startActivity(new Intent(MainActivity.this, UserInputMain.class));
                 break;
             case R.id.tab_MultiScreenApp:
                 //startActivity(new Intent(MainActivity.this, UserInterfaceMain.class));

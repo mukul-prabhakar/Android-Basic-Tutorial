@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".UserInterface.SelfGreetingCard"></activity>
+        <activity android:name=".UserInput.CourtCounter"></activity>
+        <activity android:name=".UserInput.UserInputMain" />
+        <activity android:name=".UserInput.JustJavaApp" />
+        <activity android:name=".UserInterface.SelfGreetingCard" />
         <activity android:name=".UserInterface.ProjectRubric" />
         <activity android:name=".UserInterface.BirthdayGreetingApp" />
         <activity android:name=".UserInterface.UserInterfaceMain" />

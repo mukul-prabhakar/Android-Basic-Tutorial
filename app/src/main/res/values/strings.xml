@@ -26,4 +26,15 @@
     <string name="multiscreen_app_tab">MultiScreen App</string>
     <string name="networking_tab">Networking</string>
     <string name="data_storage_tab">Data Storage</string>
+    <string name="just_java_app_tab_text">Just Java App</string>
+    <string name="practice_set_2_tab_text">Practice Set 2</string>
+    <string name="quantity_text">Quantity</string>
+    <string name="name_text">Name</string>
+    <string name="toppings_text">Toppings</string>
+    <string name="chocolate_text">Chocolate</string>
+    <string name="whipped_cream_text">Whipped cream</string>
+    <string name="order_text">order</string>
+    <string name="decrement_text">-</string>
+    <string name="default_quantity_text">2</string>
+    <string name="increment_button_text">+</string>
 </resources>
