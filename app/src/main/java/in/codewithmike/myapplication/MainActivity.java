@@ -9,6 +9,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 
+import in.codewithmike.myapplication.Networking.NetworkingMain;
 import in.codewithmike.myapplication.UserInput.UserInputMain;
 import in.codewithmike.myapplication.UserInterface.UserInterfaceMain;
 import in.codewithmike.myapplication.utils.Tools;
@@ -43,25 +44,17 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View v) {
-        switch (v.getId()) {
-            case R.id.tab_UserInterface:
-                startActivity(new Intent(MainActivity.this, UserInterfaceMain.class));
-                break;
-            case R.id.tab_UserInput:
-                startActivity(new Intent(MainActivity.this, UserInputMain.class));
-                break;
-            case R.id.tab_MultiScreenApp:
-                //startActivity(new Intent(MainActivity.this, UserInterfaceMain.class));
-                break;
-            case R.id.tab_Networking:
-                //startActivity(new Intent(MainActivity.this, UserInterfaceMain.class));
-                break;
-            case R.id.tab_DataStorage:
-                //startActivity(new Intent(MainActivity.this, UserInterfaceMain.class));
-                break;
-            default:
-                Toast.makeText(this, "No Class to show", Toast.LENGTH_SHORT).show();
-                break;
+        int id = v.getId();
+        if (id == R.id.tab_UserInterface) {
+            startActivity(new Intent(MainActivity.this, UserInterfaceMain.class));
+        } else if (id == R.id.tab_UserInput) {
+            startActivity(new Intent(MainActivity.this, UserInputMain.class));
+        } else if (id == R.id.tab_MultiScreenApp) {//startActivity(new Intent(MainActivity.this, UserInterfaceMain.class));
+        } else if (id == R.id.tab_Networking) {
+            startActivity(new Intent(MainActivity.this, NetworkingMain.class));
+        } else if (id == R.id.tab_DataStorage) {//startActivity(new Intent(MainActivity.this, UserInterfaceMain.class));
+        } else {
+            Toast.makeText(this, "No Class to show", Toast.LENGTH_SHORT).show();
         }
     }
 }

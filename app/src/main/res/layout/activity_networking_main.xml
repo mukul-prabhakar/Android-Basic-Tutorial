@@ -3,7 +3,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:viewBindingIgnore="true"
     android:background="@android:color/white"
     tools:context=".UserInterface.UserInterfaceMain">
 
@@ -20,7 +19,7 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/tab_GreetingApp"
+                android:id="@+id/earthquake_app_tab"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -32,7 +31,7 @@
                 android:fontFamily="sans-serif-light"
                 android:gravity="center"
                 android:padding="32dp"
-                android:text="@string/tab_bithday_greeting_card"
+                android:text="@string/earthquake_app"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 android:textColor="@android:color/white"
                 android:textStyle="bold" />
